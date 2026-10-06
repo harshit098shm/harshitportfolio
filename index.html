@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshit | Portfolio</title>
+  
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Harshit.</div>
+    
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <!-- Dark/Light Theme Toggle -->
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+
+      <!-- Mobile Navigation Hamburger Menu -->
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero scroll-reveal">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Harshit</span></h1>
+      <h3>Frontend Developer & Student</h3>
+      <p>Passionate about building responsive, modern, and interactive web applications using HTML, CSS, and JavaScript.</p>
+      
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <!-- Resume Download Button -->
+        <a href="resume.pdf" download class="btn btn-outline">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+    
+    <div class="hero-img-wrapper">
+      <div class="hero-img">
+        <img src="harshitimage.jpeg" alt="Harshit Profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="scroll-reveal">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <p>I am a developer actively building web applications. I focus on creating accessible, clean, and intuitive digital experiences using core frontend web technologies.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="scroll-reveal">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS3</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-github"></i>
+        <h3>Git & GitHub</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="scroll-reveal">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="portfolio.jpeg" alt="Personal Portfolio Project">
+        </div>
+        <div class="project-content">
+          <h3>Personal Portfolio</h3>
+          <p>A fully responsive personal portfolio website built with smooth scrolling, theme switcher, and mobile-friendly navigation.</p>
+          <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/harshit098shm/harshit-s-portfolio" target="_blank" class="btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="#" class="btn-sm btn-sm-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <img src="app.png" alt="Task Manager App Project">
+        </div>
+        <div class="project-content">
+          <h3>Interactive Task App</h3>
+          <p>A productivity web application that allows users to create, organize, and filter daily tasks with local storage support.</p>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>DOM API</span>
+            <span>CSS Grid</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" class="btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="#" class="btn-sm btn-sm-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="scroll-reveal">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2024 - Present</span>
+          <h3>Bachelor of Technology / Science</h3>
+          <h4>Computer Science & Engineering</h4>
+          <p>Learning foundational and advanced computer science topics, including web development, data structures, and database design.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2022 - 2024</span>
+          <h3>Higher Secondary Education</h3>
+          <h4>Senior Secondary School</h4>
+          <p>Completed higher secondary education with a strong focus on Mathematics, Physics, and Computer Science.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="scroll-reveal">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <span class="error-msg" id="name-error"></span>
+        </div>
+        
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Your Email" required>
+          <span class="error-msg" id="email-error"></span>
+        </div>
+
+        <div class="form-group">
+          <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          <span class="error-msg" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <div id="form-status" class="form-status"></div>
+      </form>
+
+      <div class="social-links">
+        <a href="https://github.com/harshit098shm" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/harshit-dalal-29b210359?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Harshit. Built with HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
